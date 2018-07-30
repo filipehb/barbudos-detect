@@ -14,13 +14,12 @@ pip install -r requirements.txt
 
 Crie as pastas para o nosso dataset.
 
-/dataset
-......./test_set
-................/barbudo
-................/nao_barbudo
-......./train_set
-................/barbudo
-................/nao_barbudo
+/dataset/test_set
+/dataset/test_set/barbudo
+/dataset/test_set/nao_barbudo
+/dataset/train_set
+/dataset/train_set/barbudo
+/dataset/train_set/nao_barbudo
 
 Pegue diversas imagens de homens com barba e sem barba no formato .jpg e mova elas para suas respectivas pastas (É importante ter uma boa quantidade (~60) em todas as pastas).
 
